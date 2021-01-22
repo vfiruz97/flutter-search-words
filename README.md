@@ -1,16 +1,6 @@
-# search_word
 
-A new Flutter project.
+## Тестовое задание Dart/Flutter
 
-## Getting Started
+    Сделать приложение с одним экраном, на котором есть поле поиска и список результатов. В качестве результатов использовать английские слова из этого файла (их там около 466 тысяч). Поиск должен быть «живым», т.е. список результатов должен обновляться с каждой введеной пользователем буквой. В результат должны попасть все слова, которые начинаются с уже введенного пользователем текста.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    Это задача на алгоритмы и структуры данных, оцениваться в первую очередь будет скорость работы поиска. Так же будет оцениваться отзывчивость ui при быстром скролле большого списка результатов.
