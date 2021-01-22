@@ -21,12 +21,12 @@ class _HomeScreenState extends State<HomeScreen> {
     items = widget.model.getWords;
   }
 
-  void searchWord(value) {
+  void searchWord(search) {
     setState(() {
-      if (value.isEmpty) {
+      if (search.isEmpty) {
         items = widget.model.getWords;
       } else {
-        widget.model.searchWord(value.toLowerCase()).then((searchItems) {
+        widget.model.searchWord(search.toLowerCase()).then((searchItems) {
           items = searchItems;
         });
       }
